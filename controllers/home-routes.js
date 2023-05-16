@@ -9,7 +9,7 @@ router.get('/', async (req, res) => {
     res.render('all', {users});
 });
 
-router.get('/dish/:id', async (req, res) => {
+router.get('/user/:id', async (req, res) => {
     try {
     const userData = await user.findByPK(req.params.id);
     if(!userData) {

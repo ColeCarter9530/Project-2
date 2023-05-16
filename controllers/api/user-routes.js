@@ -14,7 +14,7 @@ router.post('/', async (req, res) => {
     street_address: req.body.street_address
   });
   // if the dish is successfully created, the new response will be returned as json
-  res.status(200).json(dishData)
+  res.status(200).json(userData)
 } catch (err) {
   res.status(400).json(err);
 }
