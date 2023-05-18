@@ -1,21 +1,13 @@
 [
     {
-      "user_id": "",
-      "first_name": "",
-      "last_name": "",
-      "email": "",
-      "state": "",
-      "city": "",
-      "street_address": ""
-    },
-    {
-        "user_id": "",
-        "first_name": "",
-        "last_name": "",
-        "email": "",
-        "state": "",
-        "city": "",
-        "street_address": ""
-      }
+      "user_id": "1",
+      "first_name": "Dalton",
+      "last_name": "P",
+      "email": "abc@example.com",
+      "state": "AZ",
+      "city": "Scottsdale",
+      "street_address": "123 F St."
+    }
     
+  
   ]
